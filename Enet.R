@@ -426,12 +426,5 @@ create_wide_table <- function(res1, res2, res3, res4) {
 table2_wide <- create_wide_table(res1, res2, res3, res4)
 print(table2_wide, row.names = FALSE)
 
-# This prints a wide table with rows for each method and columns
-# for "Example 1", "Example 2", etc. like:
-#
-#       Method               Example 1   Example 2   Example 3   Example 4
-# 1     Lasso               3.06 (0.31) 3.87 (0.38) 65.0 (2.82) 46.6 (3.96)
-# 2     Elastic net         2.51 (0.29) 3.16 (0.27) 56.6 (1.75) 34.5 (1.64)
-# 3     Ridge regression    4.49 (0.46) 2.84 (0.27) 39.5 (1.80) 64.5 (4.78)
-# 4     Naïve elastic net   5.70 (0.41) 2.73 (0.23) 41.0 (2.13) 45.9 (3.72)
+
 
